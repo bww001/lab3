@@ -10,12 +10,9 @@ $(document).ready(function() {
  */
 function initializePage() {
 	$("#testjs").click(function(e) {
-		$('.jumbotron h1').text("Javascript is connected");
-		$("#testjs").click(function(e) {
-		  $('.jumbotron h1').text("Javascript has taken control");
-		  $("#textjs").text("Please wait...");
-		  $(".jumbotron p").toggleClass("active");
-		});
+	  $('.jumbotron h1').text("Javascript has taken control");
+	  $("#testjs").text("Please wait...");
+	  $(".jumbotron p").toggleClass("active");
 	});
 
 	// Add any additional listeners here
